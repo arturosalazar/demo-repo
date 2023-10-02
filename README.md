@@ -22,3 +22,14 @@ This is a demonstration repo to practice git
             []Run the following: git pull origin main --allow-unrelated-histories
         []Push your code
             []Run the following: git push -u origin main
+
+
+## F.A.Q
+* What is the meaning behind the command: git remote add origin YOUR_COPIED_GITHUB_URL
+    * git: command-line tool to work with a git repo
+    * remote: specifies we are working with 'remote' repositories - version of your project hosted somewhere other than your local machine
+    * add: tells git we want to add a new remote
+    * origin: conventional name for the default remote repo. Just a shorthand for the remote repo URL (you can name it something else, origin is the convention)
+    * YOUR_COPIED_GITHUB_URL: Replace this with the URL to the git repo you've created on GitHub. It is the address that your local repository will use to push and pull from.
+
+    tl;dr - establishes a connection between your local repository and the remote repository on GitHub, setting up a path to push/pull between the two
