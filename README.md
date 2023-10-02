@@ -42,4 +42,10 @@ This is a demonstration repo to practice git
     * main: The name of the branch you are pushing. 
 
     tl;dr - pushes your local changes in the "main" branch to the "main" branch of the "origin" remote repository and sets that remote branch as the upstream for your local "main" branch
-    
+
+* What is the meaning behind the command: git pull origin main --allow-unrelated-histories
+    * git: command-line tool to work with a git repo
+    * pull: command to fetch ("pull") changes from a remote repository to your local welcome branch and merge those changes into your local branch (combo of 'git fetch' and 'git merge'
+    * origin: conventional name for the default remote repo. Here, it is the name of the remote repository that you are pushing to. Just a shorthand for the remote repo URL
+    * main: The name of the branch you are pushing.
+    * --allow-unrelated-histories: This option is a bit special and is not typically required for regular git pull operations. You'd use this option when you're trying to merge two branches that started off with unrelated commit histories
