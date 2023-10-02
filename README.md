@@ -33,3 +33,13 @@ This is a demonstration repo to practice git
     * YOUR_COPIED_GITHUB_URL: Replace this with the URL to the git repo you've created on GitHub. It is the address that your local repository will use to push and pull from.
 
     tl;dr - establishes a connection between your local repository and the remote repository on GitHub, setting up a path to push/pull between the two
+
+* What is the meaning behind the command: git push -u origin main
+    * git: command-line tool to work with a git repo
+    * push: command to push changes from a local repository to a remote one
+    * -u (or --set-upstream): link your local branch to corresponding remote branch in the remote repository. You only need to use this once because it will set the upstream branch for future 'git push' or 'git pull' commands
+    * origin: conventional name for the default remote repo. Here, it is the name of the remote repository that you are pushing to. Just a shorthand for the remote repo URL 
+    * main: The name of the branch you are pushing. 
+
+    tl;dr - pushes your local changes in the "main" branch to the "main" branch of the "origin" remote repository and sets that remote branch as the upstream for your local "main" branch
+    
