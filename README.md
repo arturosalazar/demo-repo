@@ -21,6 +21,7 @@ This is a demonstration repo to practice git
         []Pull any changes (good practice to ensure no conflict)
             []Run the following: git pull origin main --allow-unrelated-histories
         []Push your code
+            []Run the following: git branch -M main
             []Run the following: git push -u origin main
 
 
